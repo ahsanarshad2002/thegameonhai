@@ -1,0 +1,530 @@
+body {
+    background-image: linear-gradient(180.96deg, #39289F 0.82%, #422F9C 129.1%);
+}
+
+.navbar-toggler {
+    background-color: white !important;
+}
+
+.nav-item a {
+    color: whitesmoke !important;
+}
+
+.nav-item a:active {
+    background-color: orange;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.navbar {
+    background-color: #00000017 !important;
+}
+
+/* first-section */
+.first-section {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.first-head h4 {
+    text-align: center;
+    font-size: 3vmin;
+    color: white;
+}
+
+.first-head span {
+    color: orange;
+    font-size: 3vmin;
+
+}
+
+.first-heading {
+    color: white;
+    text-align: center;
+}
+
+.first-heading h1 {
+    font-size: 7vmin;
+}
+
+.first-heading p {
+    font-size: 4vmin;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio h3 {
+    color: white;
+}
+
+.first-data {
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.first-card {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+    width: 80%;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.icon-grp {
+    padding-top: 2%;
+    /* display: grid;
+    grid-template-columns: 4fr 4fr 4fr; */
+}
+
+.icon {
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: orange;
+    border-radius: 50%;
+}
+
+.icon-text {
+    color: white;
+}
+
+.icon-text h3 {
+    margin-left: 33%;
+    margin-top: -13%;
+    font-size: 3vmin;
+}
+
+.icon-text h4 {
+    margin-left: 32%;
+    font-size: 2vmin;
+}
+
+.vl {
+    border-left: 3px solid white;
+    height: 100px;
+    margin-top: -7.5%;
+    margin-left: 25%;
+    overflow: hidden;
+}
+
+.vl-1 {
+    border-left: 3px solid white;
+    height: 100px;
+    margin-top: -9.5%;
+    margin-left: 65%;
+    overflow: hidden;
+}
+
+/* second-section */
+.second-section{
+    overflow: hidden;
+    margin-top: 5%;
+}
+.sec-section-img img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.sec-text   {
+    font-size: 2vmin;
+}
+.sec-text h1{
+    font-size: 3vmin;
+}
+/* third-section */
+.third-section{
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.left {
+    color: white;
+    margin-left: 10%;
+}
+
+.left h2 {
+    padding-bottom: 3%;
+    font-size: 6vmin;
+}
+
+.left p {
+    padding-bottom: 3%;
+}
+
+.p2 {
+    padding-bottom: 3%;
+}
+
+.leftbtn {
+    margin-top: 5%;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+}
+.right img{
+    width: 63%;
+    margin-left: 20%;
+}
+/* fourth-section */
+.fourth-section{
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.left-fourth {
+    color: white;
+}
+
+.left-fourth h2 {
+    padding-bottom: 3%;
+    font-size: 6vmin;
+}
+
+.left-fourth p {
+    padding-bottom: 3%;
+}
+
+.p2-fourth {
+    padding-bottom: 3%;
+}
+
+.leftbtn-fourth {
+    margin-top: 5%;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: red;
+}
+
+.right-fourth img {
+    width: 53%;
+    margin-left: 6%;
+}
+
+/* fivth-section */
+.fivth-section{
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.left-fivth {
+    color: white;
+    margin-left: 10%;
+}
+
+.left-fivth h2 {
+    padding-bottom: 3%;
+    font-size: 6vmin;
+}
+
+.left-fivth p {
+    padding-bottom: 3%;
+}
+
+.p2-fivth {
+    padding-bottom: 3%;
+}
+
+.leftbtn {
+    margin-top: 5%;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+}
+.right-fivth img{
+    width: 63%;
+    margin-left: 20%;
+}
+/* sixth-section */
+.sixth-section{
+    overflow: hidden;
+    margin-top: 5%;
+}
+.haapy-card {
+    width: 100%;
+    background-color: black;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.heading h2 {
+    font-size: 40px;
+    padding-bottom: 2%;
+}
+
+.feedback {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid white;
+    width: 72%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.per img {
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.per h3 {
+    color: white;
+    font-size: 20px;
+    margin-left: 22%;
+    margin-top: -12%;
+}
+
+.per h4 {
+    font-size: 3vmin;
+    float: right;
+    color: white;
+    margin-right: 9%;
+    margin-top: -10%;
+}
+
+.per i {
+    color: orange;
+    width: 8%;
+    float: right;
+    margin-top: -10%;
+}
+
+.del p {
+    color: white;
+    font-size: 4vmin;
+    padding: 2%;
+    text-align: center;
+}
+/* seventh-section */
+.seventh-section {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.seventh-heading {
+    color: white;
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+.seventh-heading h3 {
+    font-size: 4vmin;
+}
+
+.seventh-heading p {
+    font-size: 2vmin;
+}
+
+.loop-card {
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    width: 60%;
+    height: auto;
+    margin-left: 17%;
+}
+
+.loop-title {
+    color: white;
+    padding: 1%;
+}
+
+.loop-title h2 {
+    font-size: 5vmin;
+}
+
+.loop-title p {
+    font-size: 2vmin;
+}
+
+.loop-btn {
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding-right: 2%;
+    margin-top: -8.5%;
+}
+
+.loop-btn input {
+    border-radius: 10px;
+    background: transparent;
+    padding: 2%;
+    padding-right: 40px;
+    height: 40px;
+    border: 1px solid whitesmoke;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 3vmin;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 14vmin;
+    height: 3.5vmin;
+    margin-top: 4.5%;
+    margin-right: 6%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 2%;
+    background-color: black;
+}
+
+.company{
+    margin-top: 10%;
+    color: white;
+}
+.company img{
+    width: 20%;
+}
+.about{
+    margin-top: 10%;
+    color: white;
+}
+.about a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.service{
+    margin-top: 10%;
+    color: white;
+}
+@media (min-width:320px) and (max-width:575px) {
+
+    .first-card {
+        height: auto;
+    }
+
+    .icon-shape {
+        margin-right: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+
+    .icon-text {
+        display: none;
+
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .vl-1 {
+        display: none;
+    }
+    .sec-text{
+        margin-top: 5%;
+       text-align: center;
+       margin-right: 10%;
+      
+    }
+    .sec-text i{
+        margin-right: 30%;
+        width: 50%;
+    }
+    .left{
+        padding: 10%;
+    }
+    .leftbtn{
+        width: 50%;
+        color: white;
+    }
+    .right img{
+        border-radius: 10px;
+        width: 53%;
+       
+    }
+    .left-fourth{
+        padding: 10%;
+        margin-left: 10%;
+    }
+    .right-fourth img{
+        display: block;
+        margin: auto;
+        margin-left: 20%;
+        border-radius: 10px;
+    }
+    .left-fivth{
+        padding: 10%;
+        margin-left: 10%;
+    }
+    .right-fivth img{
+        width: 53%;
+        margin-top: 5%;
+        display: block;
+        margin: auto;
+        margin-left: 20%;
+        border-radius: 10px;
+    }
+    .sixth-icon i{
+        width: 2px;
+    }
+    .loop-card {
+        height: 60px;
+        width: 60%;
+    }
+
+    .loop-title h2 {
+        font-size: 2vmin;
+        margin-left: 2%;
+    }
+
+    .loop-title p {
+        font-size: 1vmin;
+        margin-top: -3%;
+        margin-left: 2%;
+    }
+
+    .loop-btn input {
+        font-size: 3vmin;
+        width: 100%;
+        height: 20px;
+        border-radius: 1px;
+    }
+    .btn{
+        margin-top: 5%;
+        width: 30%;
+        font-size: 2vmin;
+    }
+}

@@ -1,0 +1,408 @@
+body {
+    background-image: linear-gradient(180.96deg, #39289F 0.82%, #422F9C 129.1%);
+}
+
+.navbar-toggler {
+    background-color: white !important;
+}
+
+.nav-item a {
+    color: whitesmoke !important;
+}
+
+.nav-item a:active {
+    background-color: orange;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.navbar {
+    background-color: #00000017 !important;
+}
+
+/* first-section */
+.first-section {
+    overflow: hidden;
+}
+
+.prodesigner {
+    padding-left: 2%;
+
+}
+
+.prodesigner h4 {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 2vmin;
+    color: orange;
+    padding-bottom: 0%;
+}
+
+.heading {
+    color: white;
+}
+
+.heading h1 {
+    font-size: 10vmin;
+    padding-bottom: 2%;
+}
+
+.heading p {
+    padding-bottom: 4%;
+    font-size: 4vmin;
+}
+
+.headingbtn {
+    width: 30vmin;
+    height: 5%;
+    background-color: orange;
+    color: white;
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    gap: 4%;
+    cursor: pointer;
+}
+
+.side-1 img {
+    width: 76%;
+    margin-top: -2%;
+    padding-left: 0%;
+    float: right;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(2px 2px 2px #222);
+}
+
+/* second-section */
+.second-section {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.sec-heading {
+    color: white;
+}
+
+.sec-heading h2 {
+    font-size: 5vmin;
+    margin-left: 2.5%;
+    padding-bottom: 5%;
+}
+
+.card {
+    /* background-image: url(images/spider-men.png);
+    box-shadow: inset 58px 58px 87px 10px rgba(0, 0, 0, 0.1); */
+    color: white;
+    margin-left: 20%;
+    background-color: black;
+    width: 60%;
+    height: 240px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10%;
+    box-shadow: 3px 2px 0px 0px red;
+}
+
+.card h4 {
+    font-size: 2vmin;
+}
+
+.card h2 {
+    font-size: 4vmin;
+}
+
+.card p {
+    font-size: 2.5vmin;
+}
+
+/* third-section */
+.third-section{
+    overflow: hidden;
+    margin-top: 5%;
+}
+.three-sec-card{
+    background-color: black;
+    width: 100%;
+}
+.three-sec-data{
+    color: white;
+}
+.third img{
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.three-sec-data h3{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.three-sec-card h1{
+    padding-bottom: 5%;
+    font-size: 6vmin;
+}
+.three-sec-card p{
+    font-size: 2vmin;
+}
+/* fourth-section */
+.fourth-section{
+    overflow: hidden;
+    margin-top: 5%;
+}
+.fourth-section h3{
+    margin-left: 5%;
+    color: white;
+    font-size: 3vmin;
+}
+.four-card{
+    box-shadow: 2px 3px 1px 2px red;
+    margin-left: 10%;
+    background-color: black;
+    width: 63%;
+    height: 200px;
+    border-radius: 20px;
+}
+.avatar img{
+    margin-left: 28%;
+    width: 40%;
+    margin-top: 8%;
+}
+.four-cardtext{
+    margin-top: 8%;
+    color: white;
+    text-align: center;
+}
+.four-cardtext h2{
+    font-size: 4vmin;
+}
+.four-cardtext p{
+    font-size: 3vmin;
+}
+/* fivth-section */
+.sixth-section {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.sixth-heading {
+    color: white;
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+.sixth-heading h3 {
+    font-size: 4vmin;
+}
+
+.sixth-heading p {
+    font-size: 2vmin;
+}
+
+.loop-card {
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    width: 60%;
+    height: auto;
+    margin-left: 17%;
+}
+
+.loop-title {
+    color: white;
+    padding: 1%;
+}
+
+.loop-title h2 {
+    font-size: 5vmin;
+}
+
+.loop-title p {
+    font-size: 2vmin;
+}
+
+.loop-btn {
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding-right: 2%;
+    margin-top: -8.5%;
+}
+
+.loop-btn input {
+    border-radius: 10px;
+    background: transparent;
+    padding: 2%;
+    padding-right: 40px;
+    height: 40px;
+    border: 1px solid whitesmoke;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 3vmin;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 14vmin;
+    height: 3.5vmin;
+    margin-top: 4.5%;
+    margin-right: 6%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 2%;
+    background-color: black;
+}
+
+.company{
+    margin-top: 10%;
+    color: white;
+}
+.company img{
+    width: 20%;
+}
+.about{
+    margin-top: 10%;
+    color: white;
+}
+.about a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.service{
+    margin-top: 10%;
+    color: white;
+}
+@media (min-width:320px) and (max-width:575px) {
+    .headingbtn {
+        width: 30%;
+        display: block;
+        margin: auto;
+    }
+
+    .side-1 img {
+        margin-top: 5%;
+        margin-right: 12%;
+
+    }
+
+    .heading p {
+        font-size: 3vmin;
+    }
+
+    .sec-heading h2 {
+        text-align: center;
+    }
+
+    .card {
+        width: 50%;
+        height: auto;
+        display: grid;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    .card h4 {
+        font-size: 5vmin;
+    }
+
+    .card h2 {
+        font-size: 5vmin;
+    }
+
+    .card p {
+        font-size: 4vmin;
+    }
+    .three-sec-data{
+        text-align: center;
+    }
+    .fourth-section>h3{
+        text-align: center;
+        font-size: 7vmin;
+        margin-right: 18%;
+    }
+    .four-card{
+        margin-bottom: 5%;
+        margin-left: 15%;
+    }
+    .four-cardtext h2{
+        font-size: 8vmin;
+    }
+    .four-cardtext p{
+        font-size: 3vmin;
+    }
+    .loop-card {
+        height: 60px;
+        width: 60%;
+    }
+
+    .loop-title h2 {
+        font-size: 2vmin;
+        margin-left: 2%;
+    }
+
+    .loop-title p {
+        font-size: 1vmin;
+        margin-top: -3%;
+        margin-left: 2%;
+    }
+
+    .loop-btn input {
+        font-size: 3vmin;
+        width: 100%;
+        height: 20px;
+        border-radius: 1px;
+    }
+    .btn{
+        margin-top: 5%;
+        width: 30%;
+        font-size: 2vmin;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 1023px){
+    .card {
+        width:90%;
+        height: auto;
+    }
+
+    .card h4 {
+        font-size: 5vmin;
+    }
+
+    .card h2 {
+        font-size: 5vmin;
+    }
+
+    .card p {
+        font-size: 4vmin;
+    }
+    
+}
+@media (min-width:430px) and (max-width:932px){ 
+    .card{
+        height: auto;
+    }
+    .four-card{
+        height: auto;
+    }
+    .loop-btn{
+        width: 50%;
+        font-size: 1vmin;
+    }
+    .btn{
+        font-size: 1vmin;
+        width: 40%;
+        margin-top: 5.5%;
+    }
+}
